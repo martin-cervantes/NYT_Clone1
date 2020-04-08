@@ -380,6 +380,68 @@ nav {
   color: #326891;
 }
 
+/* story */
+
+.theory {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60em;
+}
+
+.story_header .story_title {
+  color: black;
+  font-family: 'Cheltenham', georgia, "times new roman", times, serif;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.story_header p {
+  color: #666;
+  font-family: 'Cheltenham', georgia, "times new roman", times, serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.story_body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.slide {
+  width: 15em;
+}
+
+.slide img {
+  height: 8em;
+  margin: 1em;
+}
+
+.slide p {
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin: 0.5em 1em;
+}
+
+.slide p span {
+  font-weight: 700;
+}
+
+.story_footer .line {
+  border-top: 1px solid #333;
+  margin: 1.5em 0;
+  width: 4em;
+}
+
+.story_footer p {
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 4em;
+}
+
 /* footer */
 
 footer {
