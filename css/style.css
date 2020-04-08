@@ -76,6 +76,31 @@ table {
   src: url(../font/LibreFranklin.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('font/LibreFranklin-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('../font/domine-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'nyt-gothique';
+  src: url('../font/gothique.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'nyt-imperial';
+  src: url('../font/Imperial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('../font/LibreFranklin-Medium.ttf') format('truetype');
+}
+
 /* nav bar */
 
 nav {
@@ -181,4 +206,161 @@ nav {
   border-left: 1px #888 solid;
   margin: 1em;
   padding: 0.3em 0.5em;
+}
+
+.first {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.headline {
+  width: 600px;
+  height: 96px;
+  margin: auto;
+  font-family: 'nyt-cheltenham', georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #121212;
+}
+
+.bannier {
+  margin: auto;
+  width: 80%;
+}
+
+.bannier img {
+  width: 100%;
+}
+
+.figcaption-headline {
+  width: 70%;
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+.figcaption-headline span {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #888;
+}
+
+.art-one {
+  width: 600px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.author {
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 15px;
+  color: #3f3933;
+  width: 100%;
+}
+
+.author a {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-decoration-style: ridge;
+  color: #3f3933;
+}
+
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  border: 1px red solid;
+}
+
+.date {
+  height: 50px;
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #333;
+}
+
+.nav-icon {
+  box-sizing: border-box;
+  height: 50px;
+  width: 47%;
+}
+
+.nav-icon ul {
+  margin-top: 0;
+  display: flex;
+}
+
+.nav-icon button {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border-radius: 24px;
+  background-color: #eee;
+  border: none;
+}
+
+.nav-icon button:hover {
+  border-radius: 24px;
+  border: 1px ridge #eee;
+  background-color: white;
+}
+
+.nav-icon li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.social {
+  width: 17px;
+}
+
+.envelope {
+  width: 14px;
+}
+
+.info-book {
+  width: 17px;
+  height: 30px;
+}
+
+.info {
+  width: 40px;
+}
+
+.info:hover {
+  opacity: 0.5;
+}
+
+.bubble {
+  margin-top: -3px;
+  position: relative;
+}
+
+.bubble-text {
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+
+.nav-icon a:hover {
+  opacity: 0.5;
 }
