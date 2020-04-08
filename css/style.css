@@ -54,9 +54,131 @@ table {
   border-spacing: 0;
 }
 
-/* YOUR CODE HERE */
+/* fonts */
 
+@font-face {
+  font-family: 'Cheltenham';
+  src: url(../font/Cheltenham.ttf) format('truetype');
+}
 
-body {
-  background-color: red;
+@font-face {
+  font-family: 'Gothique';
+  src: url(../font/Gothique.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Imperial';
+  src: url(../font/Imperial.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url(../font/LibreFranklin.ttf) format('truetype');
+}
+
+/* nav bar */
+
+nav {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px #e2e2e2 solid;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.left {
+  align-items: center;
+  display: flex;
+  flex: 3;
+}
+
+.fa-bars {
+  margin: 1em;
+}
+
+.fa-search {
+  margin: 1em;
+}
+
+.left a {
+  color: black;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 900;
+  margin: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex: 3;
+  justify-content: center;
+}
+
+.center a {
+  color: black;
+  font-family: 'Gothique', helvetica, arial, sans-serif;
+  font-size: 2em;
+  letter-spacing: -0.1em;
+  text-decoration: none;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+}
+
+.right .buttons {
+  background-color: #567b95;
+  border-radius: 0.2em;
+  color: white;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.65em;
+  font-weight: 200;
+  margin-right: 0.5em;
+  padding: 0.9em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.right .buttons:hover {
+  background-color: #326891;
+}
+
+.right .fa-user {
+  margin-right: 1.5em;
+}
+
+.row {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex: 3;
+  height: 1.2em;
+  justify-content: flex-end;
+  position: fixed;
+  top: 3.05em;
+  width: 100%;
+}
+
+.row .anchors {
+  color: #326891;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.row .anchors:nth-child(2) {
+  border-left: 1px #888 solid;
+  margin: 1em;
+  padding: 0.3em 0.5em;
 }
