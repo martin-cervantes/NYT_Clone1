@@ -280,7 +280,6 @@ nav {
 .menu-top {
   display: flex;
   justify-content: space-between;
-  border: 1px red solid;
 }
 
 .date {
@@ -436,6 +435,162 @@ iframe {
   color: #888;
 }
 
+.down {
+  margin-top: 30px;
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #666;
+}
+
+.down-link {
+  color: #666;
+  text-decoration: underline;
+}
+
+
+.down-link:hover {
+  text-decoration: none;
+}
+
+.menu-down {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-menu-style-down {
+  height: 35px;
+  width: 300px;
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 11px;
+  color: #ffff;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  transition: 0.5;
+}
+
+.astronomy {
+  max-width: 1150px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.all-astronomy-thumb {
+  max-width: 800px;
+  margin: auto;
+  box-sizing: border-box;
+  float: left;
+}
+
+.astronomy-thumb {
+  max-width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.as-title {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.as-thumb {
+  display: inline-block;
+  min-width: 260px;
+}
+
+.as-right {
+  width: 345px;
+  float: left;
+  margin: auto;
+}
+
+.span-as-title {
+  font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333;
+}
+
+.thumb-link {
+  text-decoration: none;
+}
+
+.as-fig {
+  margin-top: 20px;
+}
+
+.as-fig img {
+  width: 255px;
+  text-align: center;
+}
+
+.as-fig figure {
+  margin: 0;
+  width: 250px;
+}
+
+.as-fig .thumb-title {
+  margin-top: 0;
+  text-align: right;
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-size: 9px;
+  line-height: 10px;
+  color: #666;
+}
+
+.thumb-description {
+  font-family: 'nyt-cheltenham', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+
+.thumb-description:hover {
+  color: #666;
+}
+
+.thumb-date {
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #333;
+}
+
+.as-right li {
+  list-style: none;
+  font-family: 'nyt-cheltenham', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  color: #000;
+  border-top: 1px ridge #ccc;
+  padding: 10px 0 10px 0;
+}
+
+.as-right li:hover {
+  color: #666;
+}
+
+
 
 /* story */
 
@@ -543,6 +698,7 @@ aside .ads a:hover {
 /* footer */
 
 footer {
+  clear: both;
   border-top: 3.5px double #e2e2e2;
   color: #333;
   display: flex;
