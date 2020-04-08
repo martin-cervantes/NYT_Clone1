@@ -380,6 +380,63 @@ nav {
   color: #326891;
 }
 
+.title-3 {
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #333;
+}
+
+iframe {
+  width: 600px;
+  height: 319px;
+  border: 0;
+}
+
+.video {
+  text-align: justify;
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666;
+}
+
+.video span {
+  font-size: 13px;
+  line-height: 18px;
+  color: #888;
+}
+
+.cosmos {
+  margin: 25px auto 40px auto;
+}
+
+.cosmos img {
+  width: 600px;
+  height: 400px;
+}
+
+.cosmos figcaption {
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+.cosmos span {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #888;
+}
+
+
 /* story */
 
 .theory {
