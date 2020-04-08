@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    This project is a clone of the New York Times pages as practice porpose.
 
 ![screenshot](./screenshot.png)
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://mcervantes71.github.io/NYT_Clone1/index.html)
 
 ## Getting Started
 
@@ -31,10 +31,15 @@
 
 👤 **Author1**
 
-- Gmail: [Martin Cervantes](mailto:cervantes.martine@gmail.com)
 - Github: [@mcervantes71](https://github.com/mcervantes71)
 - Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+
+👤 **Author2**
+
+* Github: [@rindrajosia](https://github.com/rindrajosia)
+* Twitter: [@rindrajosia](https://twitter.com/josia_rindra)
+* Linkedin: [linkedin](https://www.linkedin.com/in/rindra-josia-99b2111a2/)
 
 ## 🤝 Contributing
 
