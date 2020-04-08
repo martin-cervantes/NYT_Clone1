@@ -365,6 +365,21 @@ nav {
   opacity: 0.5;
 }
 
+.text {
+  text-align: justify;
+  font-family: 'nyt-imperial', georgia, "times new roman", times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text a {
+  color: #326891;
+}
+
 /* footer */
 
 footer {
