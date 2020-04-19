@@ -1,33 +1,31 @@
-# Project Name
+# NYT Clone
 
     This project is a clone of the New York Times pages as practice porpose.
 
 ![screenshot](./screenshot.png)
 
-    Additional description about the project and its features.
+## :package: Built With
 
-## Built With
+    - Plain HTML5
+    - Pure CSS3
 
-    - Plain HTML5,
-    - Pure CSS3,
-
-## Live Demo
+## :mag: Live Demo
 
 [Live Demo Link](https://mcervantes71.github.io/NYT_Clone1/index.html)
 
-## Getting Started
+## :computer: Getting Started
 
-    To get a local copy up and running follow these simple example steps.
+    To get a local copy up and running follow these simple steps.
 
 ### Install
 
-    Download the repository
+    Download the repository.
 
 ### Usage
 
-    In any browser, open the index.html file
+    In any browser, open the index.html file.
 
-## Authors
+## :busts_in_silhouette: Authors
 
 👤 **Author1**
 
@@ -47,7 +45,7 @@
 
 Feel free to check the [issues page](issues/).
 
-## Show your support
+## :star2: Show your support
 
     Give a ⭐️ if you like this project!
 
