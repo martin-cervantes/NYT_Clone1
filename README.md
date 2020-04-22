@@ -1,6 +1,7 @@
 # NYT Clone
 
-    This project is a clone of the New York Times pages as practice porpose.
+    This project consists of building an HTML document that matches the appearance of a New York Time article
+    for learning purpose.
 
 ![screenshot](./screenshot.png)
 
