@@ -13,18 +13,6 @@
 
 [Live Demo Link](https://mcervantes71.github.io/NYT_Clone1/index.html)
 
-## :computer: Getting Started
-
-    To get a local copy up and running follow these simple steps.
-
-### Install
-
-    Download the repository.
-
-### Usage
-
-    In any browser, open the index.html file.
-
 ## :busts_in_silhouette: Authors
 
 👤 **Author1**
