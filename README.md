@@ -9,6 +9,7 @@
 
     - Plain HTML5
     - Pure CSS3
+    - Font Awesome
 
 ## :mag: Live Demo
 
@@ -16,17 +17,18 @@
 
 ## :busts_in_silhouette: Authors
 
-👤 **Author1**
+👤 **Martin Cervantes**
 
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
+- Github: [@mcervantes71](https://github.com/mcervantes71)
+- Gmail: [cervantes.martine](mailto:cervantes.martine@gmail.com)
 
-👤 **Author2**
+👤 **Rindra Josia**
 
-* Github: [@rindrajosia](https://github.com/rindrajosia)
+* Linkedin: [Rindra Josia](https://www.linkedin.com/in/rindra-josia-99b2111a2/)
 * Twitter: [@rindrajosia](https://twitter.com/josia_rindra)
-* Linkedin: [linkedin](https://www.linkedin.com/in/rindra-josia-99b2111a2/)
+* Github: [@rindrajosia](https://github.com/rindrajosia)
 
 ## 🤝 Contributing
 
